@@ -1,0 +1,88 @@
+p {
+	font-size: 15px;
+}
+
+.margin-vertical-40 {
+    margin: 40px 0px 40px;
+}
+
+.slideanim {visibility:hidden;}
+.slide {
+  animation-name: slide;
+  -webkit-animation-name: slide;
+  animation-duration: 1s;
+  -webkit-animation-duration: 1s;
+  visibility: visible;
+}
+
+/* Go from 0% to 100% opacity (see-through) and specify the percentage from when to slide in the element along the Y-axis */
+@keyframes slide {
+    0% {
+        opacity: 0;
+        transform: translateY(70%);
+    } 
+    100% {
+        opacity: 1;
+        transform: translateY(0%);
+    } 
+}
+@-webkit-keyframes slide {
+    0% {
+        opacity: 0;
+        -webkit-transform: translateY(70%);
+    } 
+    100% {
+        opacity: 1;
+        -webkit-transform: translateY(0%);
+    }
+}
+
+/*jumbotron*/
+.jumbotron { 
+	font-family: Montserrat, sans-serif;
+}
+
+.home-wrapper{
+    padding: 160px 0px;
+    overflow: hidden;
+}
+
+.home-content h1{
+    font-size: 48px;
+    font-weight: 700;
+    margin-bottom: 30px;
+    color: #fff;
+}
+
+.home-content p {
+    color: #fff;
+}
+
+/*greeting*/
+.middle-text {
+	margin: 80px 0px 50px;
+}
+
+/*tranvel*/
+#travel {
+    background-color: #ffc400;
+}
+
+
+/*contact*/
+.contact-title {
+    margin-bottom: 40px;
+}
+.contact-title p {
+    max-width: 55%;
+    margin: 10px auto;
+    padding-bottom: 20px;
+}
+
+.contact-content {
+    width: 80%;
+    margin: 50px auto;
+}
+
+
+
